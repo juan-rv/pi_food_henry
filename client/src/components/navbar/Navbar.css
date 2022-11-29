@@ -1,0 +1,51 @@
+
+.container_navBar {
+    background-color: rgba(117, 125, 116, 0.062);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height: 60px;
+    position: relative;
+    
+}
+
+.btn1 button {
+    position: relative;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif ;
+    color: black;
+    border: none;
+    height: 35px;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    /* position: relative;
+    right: 204px; */
+}
+
+.btn1 button:hover {
+    text-shadow: 0 0 10px rgba(117, 125, 116, 0.719);
+    font-size: 24px;
+    transition: text-shadow 0.5s ease-out;
+}
+
+.btn2 button {
+    font-size: 23px;
+    color: rgb(3, 17, 3);
+    font-family: 'Roboto', sans-serif ;
+    border: none;
+    height: 35px;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin:0px;
+    /* position: relative;
+    left: 215px */
+}
+
+.btn2 button:hover {
+    text-shadow: 0 0 10px rgba(117, 125, 116, 0.719);
+    font-size: 24px;
+    transition: text-shadow 0.5s ease-out;
+}  

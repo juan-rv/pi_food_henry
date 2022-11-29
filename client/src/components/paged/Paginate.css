@@ -1,0 +1,22 @@
+
+.btnPag {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.btnPag button{
+    border-radius: 6px;
+    background-color: rgb(121, 123, 126);
+    border-color: rgb(104, 100, 81);
+    cursor: pointer;
+    margin: 3px;
+    font-weight: bold;
+    
+}
+
+.btnPag button:hover {
+    background-color: rgb(110 99 63 / 74%);
+    color: rgb(46, 43, 24);
+}

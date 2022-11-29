@@ -1,0 +1,120 @@
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;;
+}
+
+.title_contain {
+    position: relative;
+    height: 320px;
+    width: 605px;
+    bottom: 35px;
+    left: 38px;
+   
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight:bold;
+    color: #948080b0;
+    text-align: left;
+    text-shadow: 7px 7px 7px rgb(22, 17, 17);
+    position:absolute;
+}
+
+.subtitle_containt {
+    position: relative;
+    top: 89px;
+    height: 147px;
+    width: 670px;
+    top: 30px;
+    left: 38px;
+}
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    position: absolute;
+    color:rgba(202, 200, 200, 0.904);
+    -webkit-text-stroke: 0.2px black;
+    text-shadow: 1px 1px 1px rgb(158, 144, 144);
+    
+    font-weight: bold;
+    text-align: left;
+}
+
+.foot {
+   position: relative;
+    background-color: rgba(211, 195, 195, 0.336);
+    height: 45px;
+    width: 1163px;
+    top: 41px;
+    left: 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot p {
+     color: Black;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.foot a{
+    color: black;
+    width: 50px;
+    margin-right: 1vw;
+}
+
+.foot a:hover{
+    border-bottom: 1px solid #f5e0e4;
+}
+
+.landingButton{
+	--offset: 10px;
+	--border-size: 2px;
+	
+	position: relative;
+	padding: 17.5px 35px;
+	appearance: none;
+	border: 0;
+	background: transparent;
+	color: #76323F;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+	font-weight: bold;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+	
+} 
+
+.landingButton {
+    position: absolute;
+    right: 73px;
+    bottom: 61px;
+}
+.landingButton:hover {
+    text-shadow : 0 0 10px black;
+    background:rgba(238, 228, 228, 0.336);
+}
+
+	

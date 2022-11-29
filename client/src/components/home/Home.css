@@ -1,0 +1,74 @@
+.home{
+  background: linear-gradient(rgba(30, 33, 43, 0.75), rgba(60, 63, 73, 0.75)), url(../../assets/fondo_home.jpg) ; 
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.allRecipes{
+  font-size: 18px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(163, 165, 162, 0.32);
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+.allRecipes:hover {
+  text-shadow: 0 0 10px rgba(117, 125, 116, 0.719);
+    font-size: 20px;
+    transition: text-shadow 0.5s ease-out;
+}
+
+
+.select {
+  position: relative;
+    background-color:rgb(117 125 116 / 32%);
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: bold;
+    border: 1px black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    top: 25px;  
+}
+
+.select:hover {
+  font-size: 15px;
+  background-color: rgba(117, 125, 116, 0.699) ;
+  border: 3px black;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px; 
+}
+
+.link_card {
+  text-decoration: none;
+}
+
+
+.paginate_up{
+  position:relative;
+  top: 35px;
+}
+  .paginate_down button {
+    position: relative;
+    bottom: 30px;
+  
+  }
+  

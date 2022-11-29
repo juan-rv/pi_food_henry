@@ -1,0 +1,25 @@
+.container_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(117 125 116 / 32%);
+    bottom: 0;
+}
+
+.container_footer p {
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 1vw ;
+}
+
+.container_footer a {
+    color: black;
+    width: 50px;
+    margin-right: 1vw;
+}
+
+.container_footer a:hover {
+    color: rgb(102, 102, 96);
+}
